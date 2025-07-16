@@ -24,6 +24,10 @@ public class RegionService {
         return regionDao.findAll();
     }
 
+    public void updateRegion(Region region) {
+        regionDao.save(region);
+    }
+
     public void deleteRegion(Long id) {
         regionDao.delete(id);
     }

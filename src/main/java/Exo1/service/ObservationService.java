@@ -23,6 +23,10 @@ public class ObservationService {
         return observationDAO.findAll();
     }
 
+    public void updateObservation(Observation observation) {
+        observationDAO.save(observation);
+    }
+
     public void deleteObservation(Long id) {
         observationDAO.delete(id);
     }
