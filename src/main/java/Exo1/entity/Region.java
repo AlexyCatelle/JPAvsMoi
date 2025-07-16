@@ -1,5 +1,5 @@
 package Exo1.entity;
-
+import java.util.List;
 import Exo1.util.Climat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
